@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 			for(String con:lists){
 				manager.sendTextMessage(number, null, con,null,null);
 			}
-			Toast.makeText(getApplicationContext(),R.string.success,Toast.LENGTH_LONG).show();
+			
 		}
 		
 	}
